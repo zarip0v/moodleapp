@@ -1319,3 +1319,103 @@ ion-app.app-root {
     }
   }
 }
+
+html, *:not(input):not(textarea) { 
+  -moz-user-select: none !important; 
+  -o-user-select:none !important; 
+  -khtml-user-select: none !important; 
+  -webkit-user-select: none !important; 
+  -ms-user-select: none !important; 
+  user-select: none !important; 
+  -webkit-touch-callout: none !important;
+}
+.toolbar-background-md, .toolbar-background-ios,.toolbar-background-wp {
+	border-color: #184a7c;
+	background: #184a7c;
+}
+.bar-header, .button-block-md, .button-block-ios, .toolbar-background-wp {
+  background-color: #184a7c;
+}
+ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] {
+	color: #184a7c!important;
+	border-bottom-color: #184a7c!important;
+}
+.tabs-md .tabbar, .tabs-ios .tabbar, .tabs-wp .tabbar {
+    background: #184a7c;
+}
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+    color: #ffffff;
+}
+.button-clear-md, .button-clear-ios {
+    color: #184a7c;
+}
+ion-app.app-root addon-calendar-calendar .addon-calendar-day.today .addon-calendar-day-number span {
+    background-color: #184a7c;
+}
+.fab-md {
+    color: #fff;
+    background-color: #184a7c;
+}
+.spinner circle, .spinner line {
+    stroke: #184a7c;
+}
+.radio-md .radio-inner {
+    background-color: #184a7c;
+}
+.radio-md .radio-checked {
+    border-color: #184a7c;
+}
+.item-radio-checked.item-md ion-label {
+    color: #184a7c;
+}
+.toggle-md.toggle-checked .toggle-icon {
+    background-color: #8aceff;
+}
+.toggle-md.toggle-checked .toggle-inner {
+    background-color: #184a7c;
+}
+ion-app.app-root ion-select {
+    color: #184a7c;
+}
+ion-app.app-root ion-select .select-icon .select-icon-inner {
+    color: #184a7c;
+}
+.action-sheet-md .action-sheet-title {
+    color: #184a7c;
+}
+ion-app.app-root .action-sheet-wrapper .action-sheet-selected {
+    color: #184a7c;
+}
+.segment-md-primary .segment-button.segment-activated {
+    border-color: #184a7c;
+    color: #184a7c;
+}
+.segment-md-primary .segment-button {
+    color: #184a7c;
+}
+[dir=ltr] ion-app.app-root .core-primary-selected-item {
+    border-left: 5px solid #184a7c;
+}
+.alert-md .alert-button {
+    color: #184a7c;
+}
+ion-app.app-root .core-button-select, ion-app.app-root ion-select.core-button-select {
+    color: #184a7c;
+}
+ion-app.app-root .core-button-select .select-icon .select-icon-inner, ion-app.app-root ion-select.core-button-select .select-icon .select-icon-inner {
+    color: #184a7c;
+}
+.addon-block-blog-tags core-block-pre-rendered .core-block-content ul.inline-list li a, .addon-block-tags core-block-pre-rendered .core-block-content .tag_cloud ul.inline-list li a, .badge-md {
+    background-color: #184a7c;
+}
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon,
+.tabs-md .core-tabs-bar a[aria-selected=true].tab-slide .tab-button-icon,
+.core-tabs-bar .tabs-md a[aria-selected=true].tab-slide .tab-button-icon,
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon,
+.tabs-md .core-tabs-bar a[aria-selected=true].tab-slide .tab-button-icon,
+.core-tabs-bar .tabs-ios a[aria-selected=true].tab-slide .tab-button-icon,
+.tabs-wp .tab-button[aria-selected=true] .tab-button-icon,
+.tabs-wp .core-tabs-bar a[aria-selected=true].tab-slide .tab-button-icon,
+.core-tabs-bar .tabs-wp a[aria-selected=true].tab-slide .tab-button-icon {
+  color: #ffffff;
+}
